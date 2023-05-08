@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+	<test name="Create Repository Tests">
+		<classes>
+			<class name="com.github.api.repos.EndToEndTest"></class>
+			<class name="com.github.api.repos.CreateRepositoryNegative"></class>
+			<class name="com.github.api.repos.GetRepositoryNegative"></class>
+		</classes>
+	</test>
+</suite>
